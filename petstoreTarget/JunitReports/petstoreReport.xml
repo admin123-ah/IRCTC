@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="48.869" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Validate petstore" name="Login with valid credentials - Example #1.1" time="22.273">
+<system-out><![CDATA[
+Given I open Sign in page...................................................passed
+When I enter username "j2ee" and password "j2ee"............................passed
+And I click on login button.................................................passed
+Then I navigate to welcome page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate petstore" name="Validate submit order - 1" time="13.859">
+<system-out><![CDATA[
+Given I am on welcome page..................................................passed
+When I choose a particular type of pet......................................passed
+And I click on add to cart..................................................passed
+And I click on proceed to checkout..........................................passed
+And I confirm the order.....................................................passed
+Then I verify the order submission in MyOrder section.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate petstore" name="Validate submit order - 2" time="12.443">
+<system-out><![CDATA[
+Given I am on welcome page..................................................passed
+When I choose a particular type of pet......................................passed
+And I click on add to cart..................................................passed
+And I click on proceed to checkout..........................................passed
+And I confirm the order.....................................................passed
+Then I verify the order submission in MyOrder section.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
